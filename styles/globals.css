@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,700&display=swap');
+
+@font-face {
+  font-family: HeliosExtBlack;
+  font-weight: black;
+  src: url("./fonts/heliosextblack.otf") format("opentype");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Flex',
+  sans-serif;
   scroll-behavior: smooth;
 }
 input, select, textarea, button{font-family:inherit;}
@@ -26,16 +35,21 @@ h1{
   margin-bottom: 40px;
 }
 h2{
+  text-transform: uppercase;
   font-size: 50px;
   margin-bottom: 40px;
+}
+h1,
+h2,
+h3 {
+  font-family: 'HeliosExtBlack';
 }
 p{  
   font-size: 20px;
   line-height: 35px;
 }
-section{
-  margin: 150px 0;
-  padding-top: 20px;
+section {
+  padding: 50px 0;
 }
 @media only screen and (max-width: 767px) {
   h1{

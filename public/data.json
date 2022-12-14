@@ -1,5 +1,30 @@
 [
     {
+      "title": "Metaverse building",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This is a necessary initial stage of preparation for the promotion of the site. Comprehensive analysis includes:"
+        },
+        {
+          "type": "list",
+          "elements": [
+            "Analysis of niche;",
+            "Analysis of competitors - from technical characteristics of the site to loyalty programs;",
+            "Analysis of the audience."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "On its basis the strategy is drawn up to achieve the goals."
+        },
+        {
+          "type": "image",
+          "src": "/img/slider/img_2.png"
+        }
+      ]
+    },
+    {
       "title": "Analytics",
       "content": [
         {
@@ -17,6 +42,10 @@
         {
           "type": "paragraph",
           "text": "On its basis the strategy is drawn up to achieve the goals."
+        },
+        {
+          "type": "image",
+          "src": "/img/slider/img_3.png"
         }
       ]
     },
@@ -30,6 +59,10 @@
         {
           "type": "paragraph",
           "text": "Due to Digital Marketing, the maximum coverage of the audience and the interaction of all channels with each other is achieved."
+        },
+        {
+          "type": "image",
+          "src": "/img/slider/img_4.png"
         }
       ]
     },
@@ -43,6 +76,10 @@
         {
           "type": "paragraph",
           "text": "The method allows you to receive constant organic traffic from popular search engines such as Google, Yandex, etc. As the result, wide coverage of potential customers and recognition of your project among competitors is achieved."
+        },
+        {
+          "type": "image",
+          "src": "/img/slider/img_5.png"
         }
       ]
     },
@@ -56,6 +93,10 @@
         {
           "type": "paragraph",
           "text": "The most popular platforms such as Facebook, Youtube, Twitter, Vkontakte, Instagram, etc. are used."
+        },
+        {
+          "type": "image",
+          "src": "/img/slider/img_6.png"
         }
       ]
     },
@@ -78,6 +119,10 @@
             "is currently a hot issue and attracts interest;",
             "is the one user wants to receive and ready to give contact details in exchange."
           ]
+        },
+        {
+          "type": "image",
+          "src": "/img/slider/img_7.png"
         }
       ]
     },
@@ -99,6 +144,10 @@
             "Moving negative information from the first pages of search results",
             "Relocation of positive information to higher positions, etc."
           ]
+        },
+        {
+          "type": "image",
+          "src": "/img/slider/img_8.png"
         }
       ]
     },
@@ -108,6 +157,10 @@
         {
           "type": "paragraph",
           "text": "Affiliate marketing is one of the effective methods of promoting a business on the Internet. With its help, traffic is attracted through affiliate programs, teaser, banner and other types of traffic are provided. The program involves webmaster partners who, for a fee, attract target users by any working method."
+        },
+        {
+          "type": "image",
+          "src": "/img/slider/img_10.png"
         }
       ]
     },
@@ -129,6 +182,10 @@
             "news",
             "informative information, etc."
           ]
+        },
+        {
+          "type": "image",
+          "src": "/img/slider/img_11.png"
         }
       ]
     }
