@@ -1,4 +1,4 @@
-# Landing page for [CPA Whale](https://cpawhaleprojectmanagment.com/) on Next.js
+# Landing page for [DigitalApes](https://digitalapes.agency/) on Next.js
 
 ## Available Scripts
 
