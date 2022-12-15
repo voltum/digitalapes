@@ -2,7 +2,7 @@
   background: #f9f6ef;
   background-size: cover;
   background-position: center bottom;
-  min-height: 720px;
+  min-height: 820px;
   /* max-height: 700px; */
   padding: 50px auto;
   color: black;
@@ -175,6 +175,30 @@
 
 .head_block p {}
 
+.btn {
+  font-family: 'HeliosExtBlack';
+  display: inline-block;
+  min-width: 300px;
+  padding: 25px 10px;
+  border-radius: 20px;
+  background: #FFD553;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: 50px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #ffcc33;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.122);
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
 .container {
   max-width: 1200px;
   padding: 0 2rem;
@@ -329,6 +353,12 @@
   display: flex;
   gap: 75px;
   list-style: none;
+  justify-content: center;
+  }
+
+  .contacts_line li {
+    display: flex;
+    gap: 10px;
 }
 
 .contacts_form{
@@ -364,7 +394,7 @@
 }
 
 .contacts_form button[type="submit"]{
-  font-family: inherit;
+  font-family: 'HeliosExtBlack';
   font-weight: 900;
   margin: auto;
   padding: 20px 80px;
@@ -440,7 +470,7 @@
 
 @media only screen and (max-width: 1199px) {
   .header {
-    min-height: 500px;
+    min-height: 600px;
   }
   .container{
     max-width: 960px;
@@ -465,8 +495,27 @@
   .container{
     max-width: 720px;
   }
-  .services_block{
-    grid-template-columns: 250px auto;
+.services_block {
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+}
+
+.services_nav ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: column;
+  margin-bottom: 30px;
+  /* flex-wrap: wrap;
+    justify-content: center; */
+  gap: 25px;
+}
+
+.services_nav ul li {
+  margin: 5px 0;
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 10px;
   }
   .head_nav ul{
     gap: 70px;
@@ -506,9 +555,6 @@
   .container{
     max-width: 540px;
   }
-  .header{
-    max-height: 750px;
-  }
   .head_block::after {
     width: 250px;
     height: 250px;
@@ -521,35 +567,21 @@
   .head_nav .burger_btn{
     display: block;
   }
-  .services_block{
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-  }
-  .services_nav ul{
-    display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-columns: 1fr 1fr;
-    grid-auto-flow: column;
-    margin-bottom: 30px;
-    /* flex-wrap: wrap;
-    justify-content: center; */
-    gap: 25px;
-  }
-  .services_nav ul li{
-    margin: 5px 0;
-    font-size: 15px;
-    line-height: 20px;
-    padding-left: 10px;
-  }
+.services_nav ul {
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 1fr 1fr;
+}
   .contacts {
     max-height: fit-content;
   }
   .contacts_line{
     flex-direction: column;
+    align-items: center;
     gap: 20px;
   }
   .contacts_form{
     grid-template-columns: 100%;
+    margin-top: 20px;
   }
   .contacts_form button[type="submit"]{
     grid-column: 1 / 2;
@@ -576,16 +608,24 @@
 }
 }
 @media only screen and (max-width: 575px) {
+  .btn {
+    min-width: 250px;
+  }
   .container{
     width: 100%;
-    padding: 15px;
+    padding: 8px 15px;
+    }
+
+    .head_nav_wrapper {
+      margin: 0;
   }
   .head_nav{
-    padding-top: 25px;
+    padding-top: 17px;
   }
   .head_block {
     max-width: 100%;
     padding-top: 250px;
+    text-align: center;
   }
   .head_block::after{
     width: 220px;
@@ -595,6 +635,9 @@
     top: 10px;
     left: 0;
     right: 0;
+    text-align: center;
+  }
+  .services_card {
     text-align: center;
   }
   .services_nav ul{
