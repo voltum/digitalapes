@@ -14,8 +14,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Digital Apes</title>
-        <meta name="description" content="CPA Whale description" />
+        <title>Digital Apes Agency</title>
+        <meta
+          name="description"
+          content="Customized web solutions for your business. Elevate your online presence today."
+        />
         <link rel="icon" href="/favicon.ico" />
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap"
