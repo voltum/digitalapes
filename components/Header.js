@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 // Resources
-import logo from "../public/img/logo.png";
+import logo from "../public/img/logo.svg";
 import head_img from "../public/img/head_img.svg";
 
 function Header() {
