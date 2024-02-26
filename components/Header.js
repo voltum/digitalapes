@@ -80,7 +80,7 @@ function Header() {
             ))}
           </ul>
           <div className={styles.nav_mobile_footer}>
-            <span>ceo@digitalapes.agency</span>
+            <span>assistant@digitalapes.at</span>
           </div>
         </div>
       </nav>

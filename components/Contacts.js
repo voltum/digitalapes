@@ -62,7 +62,7 @@ function Contacts() {
             <span>
               <Image src={mail} />
             </span>
-            ceo@digitalapes.agency
+            assistant@digitalapes.at
           </li>
           <li>
             <span>
