@@ -351,15 +351,17 @@
 
 .contacts_line{
   display: flex;
-  gap: 75px;
+  flex-direction: column;
   list-style: none;
   justify-content: center;
+  gap: 10px;
   }
 
   .contacts_line li {
     display: flex;
     gap: 10px;
-}
+    text-align: left;
+  }
 
 .contacts_form{
   display: grid;
@@ -427,13 +429,8 @@
   padding: 0 20px;
   background: #1E2632;
   color: white;
-}
-
-.footer span{
   font-size: 16px;
-
 }
-
 @keyframes navSlide {
   from {
     transform: translateY(-100%);
@@ -576,7 +573,6 @@
   }
   .contacts_line{
     flex-direction: column;
-    align-items: center;
     gap: 20px;
   }
   .contacts_form{

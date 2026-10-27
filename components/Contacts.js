@@ -46,7 +46,7 @@ function Contacts() {
             submitBtn.current.innerText = btnText;
           }, 3000);
           console.log("FAILED...", error);
-        }
+        },
       )
       .finally(() => {
         // submitBtn.current.innerText = "Sending...";
@@ -60,15 +60,25 @@ function Contacts() {
         <ul className={styles.contacts_line}>
           <li>
             <span>
-              <Image src={mail} />
+              <Image src={location} />
             </span>
-            assistant@digitalapes.at
+            Digital Apes GmbH
+            <br />
+            Business Purpose: Digital marketing & advertising agency
+            <br />
+            Registered Office: Leopold-Ungar-Platz 2, 1. Stock, Stiege 2, 1190
+            Wien, Austria
+            <br />
+            Commercial Register No: FN 593236g
+            <br />
+            Commercial Register Court: Handelsgericht Wien (Commercial Court
+            Vienna)
           </li>
           <li>
             <span>
-              <Image src={location} />
+              <Image src={mail} />
             </span>
-            Vienna, Austria
+            Email: assistant@digitalapes.at
           </li>
         </ul>
         <form className={styles.contacts_form} onSubmit={onSubmit}>
